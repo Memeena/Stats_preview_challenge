@@ -1,0 +1,30 @@
+body {
+    background-color:$color-very-dark-blue;
+    background-size: cover;
+}
+
+*,
+*::after,
+*::before{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+
+    @include respond(tab-port){
+        font-size: 62.5%;     //1rem = 10px    10/16 = 62.5%  
+    }
+
+    @include respond(tab-land){
+        font-size: 68.75%;     //1rem = 11px    11/16 = 68.75%
+    }
+
+    @include respond(laptop){
+        font-size: 93.75%;  //1rem = 15px 15/16=93.75%
+    }
+    
+}

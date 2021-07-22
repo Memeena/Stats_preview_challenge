@@ -7,45 +7,61 @@
   <link rel="icon" type="image/png" sizes="32x32" href="images\favicon-32x32.png">
   <title>Frontend Mentor | Stats preview card component</title>
 
-  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet" href="css/styles.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap" rel="Google_font">
 </head>
 
 <body>
+  <main>
+    <section class="stat-card">
+        <div class="stat-card__image">
+          <img src="images/image-header-mobile.jpg" alt="mobile-img" class="stat-card__img">
+        </div>
 
-  <section class="card-container">
+        <div class="stat-card__details">
+            <h1 class="stat-card__main-heading">
+            Get <span class="stat-card__em-desc">insights</span> that help your business grow.
+            </h1>
 
-    <img class="img-class" src="images/image-header-desktop.jpg" alt="Design_card_img">
+            <p class="stat-card__main-para">
+            Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and overall efficiency.
+            </p>
+
+            <ul class="stat-card__stats">
+                <li class="stat-card__item">
+                    <h2 class="stat-card__header"> 10k+ </h2>
+                    <span class="stat-card__para"> COMPANIES </span>
+                </li>
+
+                <li class="stat-card__item">
+                    <h2 class="stat-card__header"> 314 </h2>
+                    <span class="stat-card__para"> TEMPLATES </span>
+                </li>
+
+                <li class="stat-card__item">
+                    <h2 class="stat-card__header"> 12M+ </h2>
+                    <span class="stat-card__para"> QUERIES </span>
+                </li>
+            </ul>
+
+        </div>
+
+    </section>
+  </main>
+</body>
+
+    
 
 
-    <h1 class="main-heading">Get <span class="em-desc">insights</span> that help your business grow.</h1>
-
-    <p class="main-para">Discover the benefits of data analytics and make better decisions regarding revenue, customer
-      experience, and overall efficiency.
-    </p>
-
-    <div class="stat-heading1">
-      <h2 class="stat-header"> 10k+ </h2>
-      <p class="stat-para"> COMPANIES </p>
-    </div>
-
-    <div class="stat-heading2">
-      <h2 class="stat-header"> 314 </h2>
-      <p class="stat-para"> TEMPLATES </p>
-    </div>
-
-    <div class="stat-heading3">
-      <h2 class="stat-header"> 12M+ </h2>
-      <p class="stat-para"> QUERIES </p>
-    </div>
+<!--     
   </section>
   <div class="attribution">
     <p> Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
       Coded by <a href="#">Meenakshi K</a>.
     </p>
   </div>
+</main>
+</body> -->
 
-</body>
-
-</html>
+</html> 
